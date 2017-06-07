@@ -1,0 +1,24 @@
+{
+  "name": "baton",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "standard": {
+    "plugins": [
+      "flowtype"
+    ],
+    "parser": "babel-eslint"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-env": "^1.5.1",
+    "babel-preset-flow": "^6.23.0",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-flowtype": "^2.34.0",
+    "flow-bin": "^0.47.0",
+    "standard": "^10.0.2",
+    "uuid": "^3.0.1"
+  }
+}
